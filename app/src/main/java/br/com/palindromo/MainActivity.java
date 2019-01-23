@@ -7,8 +7,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import br.com.palindromo.R;
-import br.com.palindromo.domain.Palindromo;
 import br.com.palindromo.domain.PalindromoK;
 
 public class MainActivity extends AppCompatActivity
