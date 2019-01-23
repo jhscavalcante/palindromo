@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import br.com.palindromo.R;
 import br.com.palindromo.domain.Palindromo;
+import br.com.palindromo.domain.PalindromoK;
 
 public class MainActivity extends AppCompatActivity
         implements View.OnClickListener {
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity
     public void onClick( View view ) {
         EditText etPalindromo = (EditText) findViewById( R.id.et_palindromo );
         TextView tvResposta = (TextView) findViewById( R.id.tv_resposta );
-        Palindromo palindromo = new Palindromo( etPalindromo.getText().toString() );
+        PalindromoK palindromo = new PalindromoK( etPalindromo.getText().toString() );
         String resposta;
 
         if( palindromo.ehPalindromo() ){
